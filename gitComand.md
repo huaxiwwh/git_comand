@@ -74,9 +74,37 @@ git config user.email <邮箱>
 
 `git reset --hard Head~n 后退n步`
 
+## git分支管理
 
+同时并行推进多个功能开发，提高开发效率
 
+各个分支在开发过程中并不相互影响
 
+##### 查看分支
+
+`git branch -v`
+
+##### 创建新分支
+
+`git branch 新分支名`
+
+##### 删除分支
+
+`git branch -d 分支名`
+
+##### 切换分支
+
+`git checkout 分支名`
+
+##### 合并分支
+
+切换到接受修改的分支上
+
+`git checkout 分支名`
+
+`git merge 有新内容的分支名`
+
+##### 
 
 
 
