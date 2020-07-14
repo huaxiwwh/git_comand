@@ -50,6 +50,34 @@ git config user.email <邮箱>
 
 `git status`
 
+##### 提交到暂存区
+
+`git add <filename>`
+
+##### 提交到本地仓库
+
+`git commit -m 描述 <filename>`
+
+##### 查看版本历史记录
+
+`git log`
+
+##### 显示回滚版本数
+
+`git reflog`
+
+前进后退版本
+
+`git reset --hard 局部索引值`
+
+`git reset --hard Head^ 后退一步`
+
+`git reset --hard Head~n 后退n步`
+
+
+
+
+
 
 
 
